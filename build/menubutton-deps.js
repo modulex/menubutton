@@ -1,0 +1,1 @@
+modulex.config("requires",{"menubutton":["button","component/extension/content-box","node","util","xtemplate/runtime","menu"]});

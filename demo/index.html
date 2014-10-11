@@ -1,0 +1,245 @@
+<!doctype html>
+<html>
+<head>
+    <title>menubutton@1.0.0 demo</title>
+</head>
+<body>
+<h1 style="text-align: center">menubutton@1.0.0 demo</h1>
+<script src="/mx_modules/modulex-debug.js"></script>
+<script src="/mx_modules/ua-debug.js"></script>
+<script src="/mx_modules/feature-debug.js"></script>
+<script src="/mx_modules/meta.js"></script>
+<link href="/mx_modules/button/assets/dpl.css" rel="stylesheet"/>
+<link href="/mx_modules/menu/assets/dpl.css" rel="stylesheet"/>
+<link href="/build/menubutton/assets/dpl.css" rel="stylesheet"/>
+<link href="/bower_components/modulex-css/build/css/base-debug.css" rel="stylesheet"/>
+<div class="container">
+
+<div class="page-header">
+    <h1>下拉按钮
+        <small>构建支持下拉菜单的按钮组</small>
+    </h1>
+</div>
+
+<div id="common">
+
+
+    <h2>下拉按钮</h2>
+
+    <div class="row">
+        <div class="span8">
+            <h3>概述和示例</h3>
+
+            <p>使用按钮代替下拉菜单，设置class <code>.ks-menu-button</code> 和合适的标签。</p>
+
+            <div class="para">
+
+                <div tabindex="0" class="ks-menu-button ks-button">
+                    <div class="ks-menu-button-content">Action</div>
+                    <div class="ks-menu-button-dropdown">
+                        <div class="ks-menu-button-dropdown-inner">
+                        </div>
+                    </div>
+                    <div class="ks-popupmenu ks-menu">
+                        <div class="ks-popupmenu-content">
+                            <div class="ks-menuitem">Action</div>
+                            <div class="ks-menuitem">Another action</div>
+                            <div class="ks-menuitem">Something else here</div>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div tabindex="0" class="ks-menu-button ks-button ks-button-primary">
+                    <div class="ks-menu-button-content">Action</div>
+                    <div class="ks-menu-button-dropdown">
+                        <div class="ks-menu-button-dropdown-inner">
+                        </div>
+                    </div>
+                    <div class="ks-popupmenu ks-menu">
+                        <div class="ks-popupmenu-content">
+                            <div class="ks-menuitem">Action</div>
+                            <div class="ks-menuitem">Another action</div>
+                            <div class="ks-menuitem">Something else here</div>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div tabindex="0" class="ks-menu-button ks-button ks-button-danger">
+                    <div class="ks-menu-button-content">Danger</div>
+                    <div class="ks-menu-button-dropdown">
+                        <div class="ks-menu-button-dropdown-inner">
+                        </div>
+                    </div>
+                    <div class="ks-popupmenu ks-menu">
+                        <div class="ks-popupmenu-content">
+                            <div class="ks-menuitem">Action</div>
+                            <div class="ks-menuitem">Another action</div>
+                            <div class="ks-menuitem">Something else here</div>
+                        </div>
+                    </div>
+                </div>
+
+
+            </div>
+            <div class="para">
+
+                <div tabindex="0" class="ks-menu-button ks-button ks-button-warning">
+                    <div class="ks-menu-button-content">Warning</div>
+                    <div class="ks-menu-button-dropdown">
+                        <div class="ks-menu-button-dropdown-inner">
+                        </div>
+                    </div>
+                    <div class="ks-popupmenu ks-menu">
+                        <div class="ks-popupmenu-content">
+                            <div class="ks-menuitem">Action</div>
+                            <div class="ks-menuitem">Another action</div>
+                            <div class="ks-menuitem">Something else here</div>
+                        </div>
+                    </div>
+                </div>
+
+                <div tabindex="0" class="ks-menu-button ks-button ks-button-success">
+                    <div class="ks-menu-button-content">Success</div>
+                    <div class="ks-menu-button-dropdown">
+                        <div class="ks-menu-button-dropdown-inner">
+                        </div>
+                    </div>
+                    <div class="ks-popupmenu ks-menu">
+                        <div class="ks-popupmenu-content">
+                            <div class="ks-menuitem">Action</div>
+                            <div class="ks-menuitem">Another action</div>
+                            <div class="ks-menuitem">Something else here</div>
+                        </div>
+                    </div>
+                </div>
+
+                <div tabindex="0" class="ks-menu-button ks-button ks-button-info">
+                    <div class="ks-menu-button-content">Info</div>
+                    <div class="ks-menu-button-dropdown">
+                        <div class="ks-menu-button-dropdown-inner">
+                        </div>
+                    </div>
+                    <div class="ks-popupmenu ks-menu">
+                        <div class="ks-popupmenu-content">
+                            <div class="ks-menuitem">Action</div>
+                            <div class="ks-menuitem">Another action</div>
+                            <div class="ks-menuitem">Something else here</div>
+                        </div>
+                    </div>
+                </div>
+
+                <div tabindex="0" class="ks-menu-button ks-button ks-button-inverse">
+                    <div class="ks-menu-button-content">Inverse</div>
+                    <div class="ks-menu-button-dropdown">
+                        <div class="ks-menu-button-dropdown-inner">
+                        </div>
+                    </div>
+                    <div class="ks-popupmenu ks-menu">
+                        <div class="ks-popupmenu-content">
+                            <div class="ks-menuitem">Action</div>
+                            <div class="ks-menuitem">Another action</div>
+                            <div class="ks-menuitem">Something else here</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="span16">
+            <h3>示例</h3>
+
+            <p>类似于按钮组，我们使用通用的按钮标签和一些重新定义了的样式来支持kissy的DPL插件.</p>
+
+        </div>
+    </div>
+    <div class="row">
+        <div class="span8">
+            <h3>可以适用于各种尺寸的按钮</h3>
+
+            <p>下拉按钮适用于多种尺寸大小. 你可以定义 <code>.ks-button-large</code>, <code>.ks-button-small</code>, 或者 <code>.ks-button-mini</code>三种类型。
+            </p>
+
+            <div class="para">
+                <div tabindex="0" class="ks-menu-button ks-button ks-button-large">
+                    <div class="ks-menu-button-content">Large button</div>
+                    <div class="ks-menu-button-dropdown">
+                        <div class="ks-menu-button-dropdown-inner">
+                        </div>
+                    </div>
+                    <div class="ks-popupmenu ks-menu">
+                        <div class="ks-popupmenu-content">
+                            <div class="ks-menuitem">Action</div>
+                            <div class="ks-menuitem">Another action</div>
+                            <div class="ks-menuitem">Something else here</div>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div tabindex="0" class="ks-menu-button ks-button ks-button-small">
+                    <div class="ks-menu-button-content">Small button</div>
+                    <div class="ks-menu-button-dropdown">
+                        <div class="ks-menu-button-dropdown-inner">
+                        </div>
+                    </div>
+                    <div class="ks-popupmenu ks-menu">
+                        <div class="ks-popupmenu-content">
+                            <div class="ks-menuitem">Action</div>
+                            <div class="ks-menuitem">Another action</div>
+                            <div class="ks-menuitem">Something else here</div>
+                        </div>
+                    </div>
+                </div>
+
+                <div tabindex="0" class="ks-menu-button ks-button ks-button-mini" data-toggle="dropdown">
+                    <div class="ks-menu-button-content">Mini button</div>
+                    <div class="ks-menu-button-dropdown">
+                        <div class="ks-menu-button-dropdown-inner">
+                        </div>
+                    </div>
+                    <div class="ks-popupmenu ks-menu">
+                        <div class="ks-popupmenu-content">
+                            <div class="ks-menuitem">Action</div>
+                            <div class="ks-menuitem">Another action</div>
+                            <div class="ks-menuitem">Something else here</div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            <!-- /ks-button-toolbar -->
+        </div>
+        <!--/span-->
+
+    </div>
+    <!--/row-->
+</div>
+</div>
+<script>
+    var isBuild = location.href.indexOf('build') !== -1;
+    require.config({
+        base: '/mx_modules',
+        packages: {
+            'menubutton': {
+                filter: isBuild ? 'debug' : '',
+                base: isBuild ? '/build/menubutton' : '/lib/menubutton'
+            }
+        }
+    });
+    require('button,menubutton,node', function (Button, MenuButton, $) {
+        $("#common .ks-menu-button").each(function (n) {
+            new MenuButton({
+                srcNode: n,
+                menu: {
+                    align: {
+                        offset: [0, -1]
+                    }
+                },
+                matchElWidth: false
+            }).render();
+        });
+    });
+</script>
+</body>
+</html>
