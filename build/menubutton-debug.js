@@ -1,3 +1,8 @@
+/*
+Copyright 2014, modulex-menubutton@1.0.2
+MIT Licensed
+build time: Thu, 16 Oct 2014 08:45:06 GMT
+*/
 modulex.add("menubutton", ["menu","xtemplate/runtime","button","component/extension/content-box","util","node"], function(require, exports, module) {
 var _menu_ = require("menu");
 var xtemplateRuntime = require("xtemplate/runtime");
@@ -16,6 +21,7 @@ menubutton/option
 */
 var menubuttonXtplTpl, menubuttonOption, menubuttonXtplTplRender, menubuttonControl, menubuttonSelect, menubutton;
 menubuttonXtplTpl = function (exports) {
+  /*compiled by xtemplate#3.3.1*/
   var ret = exports = function tpl(undefined) {
     var t;
     var t0;
@@ -426,7 +432,7 @@ menubutton = function (exports) {
   MenuButton.Select = Select;
   MenuButton.Option = menubuttonOption;
   exports = MenuButton;
-  MenuButton.version = '1.0.1';
+  MenuButton.version = '1.0.2';
   return exports;
 }();
 module.exports = menubutton;
