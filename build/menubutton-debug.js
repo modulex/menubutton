@@ -426,6 +426,7 @@ menubutton = function (exports) {
   MenuButton.Select = Select;
   MenuButton.Option = menubuttonOption;
   exports = MenuButton;
+  MenuButton.version = '1.0.1';
   return exports;
 }();
 module.exports = menubutton;
